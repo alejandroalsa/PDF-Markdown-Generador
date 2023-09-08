@@ -38,7 +38,7 @@ if [ -z "$titulo" ]; then
 fi
 
 if [ -z "$background" ]; then
-    background="background.pdf"
+    background="fondo.pdf"
     background_option="titlepage-background"
 else
     background_option="titlepage-color"
