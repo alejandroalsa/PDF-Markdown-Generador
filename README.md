@@ -51,6 +51,12 @@ Por último para poder ejecutar Pandoc y generar el PDF con los estilos tendrás
 pandoc "Nombre del archivo markdown.md" -o "Nombre del PDF.pdf" --from markdown --template "eisvogel" --listings
 ```
 
+En el caso de que utilices caracteres especiales como Matemáticos, ∑ ∀ ⊑ ℕ ℝ ℚ ℙ ℤ ℍ ℂ o cualquier otro, tendrás que agregar la siguiente línea a la instrucción.
+
+```
+--pdf-engine=lualatex
+```
+
 ## Instalación de [Pandoc](https://pandoc.org/)
 
 ```bash
@@ -66,10 +72,7 @@ pandoc --version
 ## Instalación de [LaTeX](https://pandoc.org/)
 
 ```bash
-sudo apt-get install texlive-latex-extra
-```
-```bash
-sudo tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref
+sudo apt-get install texlive-full
 ```
 
 ## Instalación de [Wandmalfarbe](https://pandoc.org/)
