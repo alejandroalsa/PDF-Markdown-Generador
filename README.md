@@ -57,6 +57,12 @@ En el caso de que utilices caracteres especiales como Matemáticos, ∑ ∀ ⊑ 
 --pdf-engine=lualatex
 ```
 
+También puede usar la siguiente instrucción para respetar de una forma más clara la nomenclatura de Markdown
+
+```
+--variable mainfont="TeX Gyre Pagella"
+```
+
 ## Instalación de [Pandoc](https://pandoc.org/)
 
 ```bash
