@@ -95,7 +95,8 @@ Si no existe la carpeta `templates` tendrás que crearla.
 
 ```bash
 git clone https://github.com/alejandroalsa/PDF-Markdawn-Generador
-```
+```![Rectangle 3](https://github.com/user-attachments/assets/1bed11e5-ddff-46af-b106-731cfbe670f5)
+
 
 ## Desarrolladores
 
